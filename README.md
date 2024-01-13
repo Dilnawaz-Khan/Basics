@@ -36,7 +36,7 @@ Stay updated with the latest tutorials and announcements by following Learn By D
 
 - [Twitter](https://twitter.com/this_is_dill?t=LkonBx8yKL_C9aGZRKm0dA&s=09)
 - [Instagram](https://instagram.com/dill_sayss)
-- [Facebook](https://facebook.com/learnbydill)
+- [Facebook](https://www.facebook.com/learnbydill)
 <!-- Add other social media platforms -->
 
 Feel free to reach out with questions, feedback, or suggestions!
