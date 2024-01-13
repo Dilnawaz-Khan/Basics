@@ -28,7 +28,8 @@ If you find these tutorials helpful, consider supporting the project in the foll
 
 Subscribe to the Learn By Dill YouTube channel for more React Native tutorials:
 
-[![Learn By Dill YouTube Channel](https://studio.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw/editing/images)](https://www.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw)
+[![Learn By Dill YouTube Channel]([https://example.com/path/to/your/channel-image.jpg](https://yt3.googleusercontent.com/60CEyUDx22iwjRKsPaGmzAASYnn8zTekBMv75NeNoLZRuOkJ8ZC5sa-_pzx0_O2a9P-d836igQ=s176-c-k-c0x00ffffff-no-rj))](https://www.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw)
+)
 
 ## 📱 Connect on Social Media
 
