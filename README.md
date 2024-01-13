@@ -11,7 +11,7 @@ Welcome to the Learn By Dill GitHub repository! This repository contains the sou
 
 ## 🚀 Quick Start
 
-1. Clone the repository: `[git clone https://github.com/dilnawaz-khan/your-repo.git](https://github.com/Dilnawaz-Khan/Basics.git)`
+1. Clone the repository: [git clone https://github.com/dilnawaz-khan/your-repo.git](https://github.com/Dilnawaz-Khan/Basics.git)
 2. Navigate to the project directory: `cd Basics`
 3. Install dependencies: `npm install`
 4. Follow the instructions in each tutorial's directory to run the associated code.
@@ -28,15 +28,15 @@ If you find these tutorials helpful, consider supporting the project in the foll
 
 Subscribe to the Learn By Dill YouTube channel for more React Native tutorials:
 
-[![Learn By Dill YouTube Channel]([link-to-your-channel-thumbnail-image](https://studio.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw/editing/images))]([link-to-your-youtube-channel](https://www.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw))
+[![Learn By Dill YouTube Channel](https://studio.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw/editing/images)](https://www.youtube.com/channel/UCn9EJ8TFwJsD8iAIISCUVmw)
 
 ## 📱 Connect on Social Media
 
 Stay updated with the latest tutorials and announcements by following Learn By Dill on social media:
 
-- [Twitter](twitter.com/this_is_dill?t=LkonBx8yKL_C9aGZRKm0dA&s=09)
-- [Instagram](instagram.com/dill_sayss)
-- [Facebook](facebook.com/learnbydill)
+- [Twitter](https://twitter.com/this_is_dill?t=LkonBx8yKL_C9aGZRKm0dA&s=09)
+- [Instagram](https://instagram.com/dill_sayss)
+- [Facebook](https://facebook.com/learnbydill)
 <!-- Add other social media platforms -->
 
 Feel free to reach out with questions, feedback, or suggestions!
