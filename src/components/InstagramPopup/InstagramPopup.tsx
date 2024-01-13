@@ -14,6 +14,7 @@ const InstagramPopup = ({visible, handleClose}: InstagramPopupProps) => {
   return (
     <Modal
       transparent
+      animationType="slide"
       visible={visible}
       onRequestClose={closeModal}
       style={styles.modalContainer}>
