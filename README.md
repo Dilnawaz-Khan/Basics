@@ -40,6 +40,12 @@ Stay updated with the latest tutorials and announcements by following Learn By D
 - [Facebook](https://www.facebook.com/learnbydill)
 <!-- Add other social media platforms -->
 
+## 👨‍💻 About the Author
+
+Hi, I'm Dilnawaz Khan, the creator of Learn By Dill. I'm a React Native developer with over 2 years of hands-on experience. Throughout my career, I've had the opportunity to work with various companies, contributing to the development of diverse applications such as educational, medical, and social apps. Whether collaborating with a team or working independently, I bring a wealth of experience to the table.
+
+My goal with Learn By Dill is to share my knowledge and passion for React Native development through clear and insightful tutorials. Join me on this coding journey, and let's master React Native together!
+
 Feel free to reach out with questions, feedback, or suggestions!
 
 Happy coding! 👩‍💻🚀
