@@ -11,7 +11,7 @@ Welcome to the Learn By Dill GitHub repository! This repository contains the sou
 
 ## 🚀 Quick Start
 
-1. Clone the repository: [git clone https://github.com/dilnawaz-khan/your-repo.git](https://github.com/Dilnawaz-Khan/Basics.git)
+1. Clone the repository: (https://github.com/Dilnawaz-Khan/Basics.git)
 2. Navigate to the project directory: `cd Basics`
 3. Install dependencies: `npm install`
 4. Follow the instructions in each tutorial's directory to run the associated code.
