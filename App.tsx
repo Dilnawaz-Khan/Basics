@@ -7,7 +7,21 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Props (Learn By Dill)</Text>
-      <MyButton />
+      <MyButton
+        title={'Subscribe!'}
+        backgroundColor={'red'}
+        numberTimesClick={12}
+      />
+      <MyButton
+        title={'Follow'}
+        backgroundColor={'dodgerblue'}
+        numberTimesClick={0}
+      />
+      <MyButton
+        title={'New Purpose'}
+        backgroundColor={'dodgerblue'}
+        numberTimesClick={0}
+      />
     </View>
   );
 };

@@ -1,11 +1,13 @@
-import {useEffect} from 'react';
 import {Pressable, StyleSheet, Text} from 'react-native';
 import {COLORS} from '../constants';
 
-const MyButton = () => {
+const MyButton = ({title, backgroundColor, numberTimesClick}: any) => {
+  // const {title} = props;
   return (
-    <Pressable style={styles.btn}>
-      <Text style={styles.btnText}>Click me </Text>
+    <Pressable style={[styles.btn, {backgroundColor}]}>
+      <Text style={styles.btnText}>
+        {title} {numberTimesClick}
+      </Text>
     </Pressable>
   );
 };
