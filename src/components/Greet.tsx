@@ -4,15 +4,18 @@ import {COLORS} from '../constants';
 
 const Greet = (props: any) => {
   useEffect(() => {
-    console.log('useEffect [Greet Component]');
-  }, []);
+    console.log('useEffect Greet Comp [Child]');
 
-  console.log('Greet Component Outside');
+    return () => {
+      console.log('Child unmount');
+    };
+  }, [props.count]);
 
+  console.log('JSX Greet Comp');
   return (
     <View style={styles.container}>
       <Text style={styles.greetTxt}>
-        Hello, Welcome to Learn By Dill {props.count}
+        Hello, Welcome to Codewith Dill {props.count} ==== {props.newState}
       </Text>
     </View>
   );

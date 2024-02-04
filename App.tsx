@@ -1,26 +1,33 @@
-import {Pressable, StyleSheet, Text, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
-import Greet from './src/components/Greet';
+import {Pressable, StyleSheet, Text, View} from 'react-native';
 import {COLORS} from './src/constants';
+import Greet from './src/components/Greet';
+
+let x = 0;
 
 const App = () => {
   const [count, setCount] = useState(0);
+  const [newState, setNewState] = useState(0);
+  // useState = >
+
   useEffect(() => {
-    console.log('I am in useEffect');
-  }, [count]);
+    console.log('useEffect triggered[Parent]', x);
+  }, [x]);
 
-  console.log('I am outside');
-
-  const handleClick = () => {
-    setCount(prevState => prevState + 1);
-  };
+  console.log('JSX rendered');
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Let us discuss useEffect</Text>
-      <Pressable style={styles.btn} onPress={handleClick}>
-        <Text style={styles.btnTxt}>Click me</Text>
+      <Text style={styles.title}>useEffect - Codingwith Dill</Text>
+      <Pressable style={styles.btn} onPress={() => x++}>
+        <Text style={styles.btnTxt}>Click me - {x}</Text>
       </Pressable>
-      <Greet count={count} />
+      <Pressable
+        style={styles.btn}
+        onPress={() => setNewState(prevState => prevState + 1)}>
+        <Text style={styles.btnTxt}>State Btn - {newState}</Text>
+      </Pressable>
+
+      {count < 2 && <Greet count={count} newState={newState} />}
     </View>
   );
 };
