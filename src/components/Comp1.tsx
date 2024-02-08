@@ -1,13 +1,16 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, {useState} from 'react';
 import Comp3 from './Comp3';
 import Comp4 from './Comp4';
 
 const Comp1 = ({name}: any) => {
+  const [subscriber, setSubscriber] = useState(104);
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Component 1</Text>
-      <Text style={styles.text}>Youtube Channel: {name}</Text>
+      <Text style={styles.text}>
+        {name} | Subscriber: {subscriber}
+      </Text>
       <View style={{flexDirection: 'row', alignItems: 'center', gap: 30}}>
         <Comp3 />
         <Comp4 />

@@ -11,7 +11,9 @@ const Comp2 = ({name}: any) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Component 2</Text>
-      <Text style={styles.text}>Youtube Channel: {name}</Text>
+      <Text style={styles.text}>
+        {name} | Subscriber: {subscriber}
+      </Text>
       <Pressable style={styles.subscribeBtn}>
         <Text>Subscribe</Text>
       </Pressable>

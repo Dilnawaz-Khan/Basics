@@ -5,6 +5,7 @@ import Comp2 from './src/components/Comp2';
 
 const App = () => {
   const [name, setName] = useState('Codingwith Dill');
+  const [channelCreateAt, setChannelCreatedAt] = useState('July 3, 2019');
   return (
     <View style={styles.container}>
       <Comp1 name={name} />

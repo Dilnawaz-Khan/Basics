@@ -5,7 +5,7 @@ const Comp3 = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Comp 3</Text>
-      <Text style={styles.channelName}>channel name missing</Text>
+      <Text style={styles.channelName}>Channel Date missing</Text>
     </View>
   );
 };
