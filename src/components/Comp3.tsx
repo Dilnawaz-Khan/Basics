@@ -1,11 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const Comp3 = () => {
+const Comp3 = ({channelCreateAt}: any) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Component 3</Text>
-      <Text style={styles.channelName}>Channel Date missing</Text>
+      <Text style={styles.channelName}>Date: {channelCreateAt}</Text>
     </View>
   );
 };

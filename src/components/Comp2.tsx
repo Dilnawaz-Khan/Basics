@@ -2,11 +2,11 @@ import {Pressable, StyleSheet, Text, View} from 'react-native';
 import React, {useState} from 'react';
 import {COLORS} from '../constants';
 
-const Comp2 = ({name}: any) => {
-  const [subscriber, setSubscriber] = useState(104);
+const Comp2 = ({name, subscriber, setSubscriber}: any) => {
+  // const [subscriber, setSubscriber] = useState(104);
 
   const increaseSubscriberCount = () => {
-    setSubscriber(prevCount => prevCount + 1);
+    setSubscriber((prevCount: any) => prevCount + 1);
   };
   return (
     <View style={styles.container}>
@@ -14,7 +14,7 @@ const Comp2 = ({name}: any) => {
       <Text style={styles.text}>
         {name} | Subscriber: {subscriber}
       </Text>
-      <Pressable style={styles.subscribeBtn}>
+      <Pressable style={styles.subscribeBtn} onPress={increaseSubscriberCount}>
         <Text>Subscribe</Text>
       </Pressable>
     </View>
