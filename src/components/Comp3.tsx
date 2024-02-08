@@ -4,7 +4,7 @@ import React from 'react';
 const Comp3 = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Comp 3</Text>
+      <Text style={styles.text}>Component 3</Text>
       <Text style={styles.channelName}>Channel Date missing</Text>
     </View>
   );

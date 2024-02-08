@@ -4,7 +4,7 @@ import React from 'react';
 const Comp4 = () => {
   return (
     <View style={styles.container}>
-      <Text>Comp 4</Text>
+      <Text>Component 4</Text>
     </View>
   );
 };
