@@ -1,23 +1,17 @@
-import {useContext} from 'react';
 import {Pressable, StyleSheet, Text} from 'react-native';
-
 import {COLORS} from '../constants';
-import ThemeContext from '../context/ThemeContext';
+import {useThemeContext} from '../hooks/useThemeContext';
 
 const ThemeToggler = () => {
-  const {darkMode, setDarkMode} = useContext(ThemeContext);
+  const {darkMode, setDarkMode} = useThemeContext();
 
   const toggleTheme = () => setDarkMode((prevState: any) => !prevState);
 
   const buttonText = darkMode ? 'Enable Light Mode' : 'Enable Dark Mode';
 
   const bgColor = darkMode
-    ? {
-        backgroundColor: COLORS.white,
-      }
-    : {
-        backgroundColor: COLORS.primary,
-      };
+    ? {backgroundColor: COLORS.white}
+    : {backgroundColor: COLORS.primary};
 
   const textColor = darkMode
     ? {

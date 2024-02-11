@@ -1,12 +1,10 @@
-import {useContext} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-
 import {COLORS} from '../constants';
-import ThemeContext from '../context/ThemeContext';
+import {useThemeContext} from '../hooks/useThemeContext';
 import ThemeToggler from './ThemeToggler';
 
 const Card = () => {
-  const {darkMode} = useContext(ThemeContext);
+  const {darkMode} = useThemeContext();
 
   const bgColor = darkMode
     ? {backgroundColor: COLORS.white}

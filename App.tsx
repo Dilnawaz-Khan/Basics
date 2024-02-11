@@ -1,15 +1,11 @@
-import {useState} from 'react';
-
 import Card from './src/components/Card';
-import ThemeContext from './src/context/ThemeContext';
+import {ThemeContextProvider} from './src/context/ThemeContextProvider';
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
-    <ThemeContext.Provider value={{darkMode, setDarkMode}}>
+    <ThemeContextProvider>
       <Card />
-    </ThemeContext.Provider>
+    </ThemeContextProvider>
   );
 };
 
